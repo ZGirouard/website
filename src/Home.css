@@ -1,0 +1,60 @@
+.bioText {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .downArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 160px;
+  }
+  
+  .downArrow #scrollDown {
+    padding-left: 60px;
+  }
+  
+  .downArrow { opacity: 0;
+               animation: fadeIn 3s 4s forwards; }
+  .bioText { animation: fadeIn 2s forwards; }
+  .textBubble { animation: fadeIn 2s forwards; }
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  
+  .textBubble {
+    flex: 1;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background: var(--Light-Blue, #3142D7);
+    color: #FFF;
+    font-size: 30px;
+    box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .pumpkinImage {
+    max-width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 20px;
+    border: 2px #000;
+    box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: 70px auto;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 60px;
+  }

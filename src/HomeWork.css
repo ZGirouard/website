@@ -1,0 +1,52 @@
+.contactArea {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background: var(--Dark-Blue, #323443);
+  color: #FFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: normal;
+  padding-top: 0px;
+}
+
+.cards {
+  border-radius: 20px;
+  transition: 0.3s;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 80px;
+  text-align: center;
+}
+
+.workLink {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  box-shadow: 8px 8px 8px 0 rgba(0,0,0,0.5);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card1 {
+  background: var(--Light-Green, #58BE75);
+}
+
+.card2{
+  background: var(--Light-Red, #D14E4E);
+}
+
+.card3{
+  background: var(--Deep-Purple, #414EC5);
+}
