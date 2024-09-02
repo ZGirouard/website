@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/graffiti/static/css/main.4595b3a3.css",
+    "main.js": "/graffiti/static/js/main.923d7f35.js",
+    "static/js/453.291e1919.chunk.js": "/graffiti/static/js/453.291e1919.chunk.js",
+    "static/media/Swimming-V6.png": "/graffiti/static/media/Swimming-V6.a3eadfa67d80a8db2e68.png",
+    "static/media/Portraits-Poster.png": "/graffiti/static/media/Portraits-Poster.c484a337af49420ea20f.png",
+    "static/media/Quarters-Of-Change-Tour-V2.png": "/graffiti/static/media/Quarters-Of-Change-Tour-V2.78a3ded9e395756dd2cd.png",
+    "static/media/Folie-a-deuxs.png": "/graffiti/static/media/Folie-a-deuxs.9687519253da6f61969a.png",
+    "static/media/Zach-Pumpkin.JPG": "/graffiti/static/media/Zach-Pumpkin.4eca54d02d70102e8ff5.JPG",
+    "static/media/D10.png": "/graffiti/static/media/D10.af0aac5d8337fb5fc8d9.png",
+    "static/media/github.png": "/graffiti/static/media/github.d735e504486c895db140.png",
+    "static/media/Fall2024Resume.pdf": "/graffiti/static/media/Fall2024Resume.5c42ec91373fa0cda875.pdf",
+    "static/media/Grocery-Main.png": "/graffiti/static/media/Grocery-Main.1781ad465477ab82c375.png",
+    "static/media/Grocery-Cart.png": "/graffiti/static/media/Grocery-Cart.e1baf387519d811e28fa.png",
+    "static/media/Grocery-Account.png": "/graffiti/static/media/Grocery-Account.bbedb7449ceb8c4d93bd.png",
+    "static/media/resume.png": "/graffiti/static/media/resume.aa6c1d5913bcefca92ea.png",
+    "static/media/Grocery-Shipping.png": "/graffiti/static/media/Grocery-Shipping.9579ab4b84f86f80fdba.png",
+    "static/media/Grocery-Register.png": "/graffiti/static/media/Grocery-Register.b65ca6bcc70d8487cddd.png",
+    "static/media/Grocery-Log-In.png": "/graffiti/static/media/Grocery-Log-In.60e99aed00d2840060c1.png",
+    "static/media/GroceryLogo.png": "/graffiti/static/media/GroceryLogo.7868f15bfb15c729868a.png",
+    "static/media/ContactLogo.png": "/graffiti/static/media/ContactLogo.83bc098df49370ffe3b4.png",
+    "static/media/linkedin.png": "/graffiti/static/media/linkedin.68ac41e1459436bfd38f.png",
+    "index.html": "/graffiti/index.html",
+    "main.4595b3a3.css.map": "/graffiti/static/css/main.4595b3a3.css.map",
+    "main.923d7f35.js.map": "/graffiti/static/js/main.923d7f35.js.map",
+    "453.291e1919.chunk.js.map": "/graffiti/static/js/453.291e1919.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4595b3a3.css",
+    "static/js/main.923d7f35.js"
+  ]
+}
