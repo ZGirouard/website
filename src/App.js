@@ -12,6 +12,7 @@ function App() {
   return (
     <Router>
       <div>
+        <Home />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
