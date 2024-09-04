@@ -2,7 +2,7 @@
   "name": "graffiti",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://zgirouard.github.io/website",
+  "homepage": "/website/#",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
