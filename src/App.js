@@ -4,14 +4,11 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Navbar from './Navbar';
+import ReactDOM from 'react-dom/client';
 import GroceryStore from './GroceryStore';
 import GraphicDesign from './GraphicDesign';
 import Internship from './Internship';
-
-import {
-  createHashRouter,
-  RouterProvider
-} from 'react-router-dom';
+import { createHashRouter, RouterProvider} from 'react-router-dom';
 
 const router = createHashRouter([
   {
@@ -28,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <>
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,7 +36,7 @@ function App() {
           <Route path="/Internship" element={<Internship />} />
         </Routes>
       </div>
-    </Router>
+    </>
   );
 }
 
