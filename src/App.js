@@ -1,5 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import {
+  createHashRouter,
+  RouterProvider
+} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -8,6 +13,19 @@ import ReactDOM from 'react-dom/client';
 import GroceryStore from './GroceryStore';
 import GraphicDesign from './GraphicDesign';
 import Internship from './Internship';
+
+const router = createHashRouter([
+  {
+    path: "/*",
+    element: <App />,
+  }
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
 
 function App() {
   return (
