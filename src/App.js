@@ -8,6 +8,24 @@ import GroceryStore from './GroceryStore';
 import GraphicDesign from './GraphicDesign';
 import Internship from './Internship';
 
+import {
+  createHashRouter,
+  RouterProvider
+} from 'react-router-dom';
+
+const router = createHashRouter([
+  {
+    path: "/*",
+    element: <App />,
+  }
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
+
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
