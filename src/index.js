@@ -12,7 +12,7 @@ document.head.appendChild(link);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <App />
     </HashRouter>
   </React.StrictMode>
