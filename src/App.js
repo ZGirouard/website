@@ -10,7 +10,7 @@ import Internship from './Internship';
 
 function App() {
   return (
-    <Router basename="/website">
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
