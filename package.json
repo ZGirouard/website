@@ -1,7 +1,7 @@
 {
   "name": "graffiti",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://zgirouard.github.io/ZGirouard.github.io",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
