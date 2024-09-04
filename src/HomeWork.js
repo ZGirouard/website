@@ -12,7 +12,7 @@ import GroceryStore from './GroceryStore';
 function HomeWork() {
   return (
     <div className='contactArea'>
-      <a className="workLink" href="/Internship">
+      <a className="workLink" href="#/Internship">
       <div class='cards card2'>
         <img src={Nebraska} alt="Nebraska Logo" />
         <div class="container">
@@ -20,7 +20,7 @@ function HomeWork() {
         </div>
       </div>
       </a>
-      <a className="workLink" href="/GroceryStore">
+      <a className="workLink" href="#/GroceryStore">
       <div class='cards card1'>
         <img src={Grocery} alt="Grocery Store Logo" />
         <div class="container">
@@ -28,7 +28,7 @@ function HomeWork() {
         </div>
       </div>
       </a>
-      <a className="workLink" href="/GraphicDesign">
+      <a className="workLink" href="#/GraphicDesign">
       <div class='cards card3'>
         <img src={Photoshop} alt="Photoshop Logo" />
         <div class="container">
