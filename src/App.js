@@ -10,7 +10,7 @@ import Internship from './Internship';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website">
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
