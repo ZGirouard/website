@@ -9,7 +9,6 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Navbar from './Navbar';
-import ReactDOM from 'react-dom/client';
 import GroceryStore from './GroceryStore';
 import GraphicDesign from './GraphicDesign';
 import Internship from './Internship';
