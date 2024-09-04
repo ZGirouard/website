@@ -21,7 +21,7 @@
 }
 
 .downArrow { opacity: 0;
-             animation: fadeIn 4s 4s forwards; }
+             animation: fadeIn 2s 4s forwards; }
 .bioText { animation: fadeIn 4s; }
 .textBubble { animation: fadeIn 4s; }
 .pumpkinImage { animation: fadeIn 4s; }
