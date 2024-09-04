@@ -13,7 +13,7 @@ import { HashLink } from 'react-router-hash-link';
 function HomeWork() {
   return (
     <div className='contactArea'>
-      <HashLink className="workLink" href="#/Internship">
+      <HashLink className="workLink" to="#/Internship">
       <div class='cards card2'>
         <img src={Nebraska} alt="Nebraska Logo" />
         <div class="container">
@@ -21,7 +21,7 @@ function HomeWork() {
         </div>
       </div>
       </HashLink>
-      <HashLink className="workLink" href="#/GroceryStore">
+      <HashLink className="workLink" to="#/GroceryStore">
       <div class='cards card1'>
         <img src={Grocery} alt="Grocery Store Logo" />
         <div class="container">
@@ -29,7 +29,7 @@ function HomeWork() {
         </div>
       </div>
       </HashLink>
-      <HashLink className="workLink" href="#/GraphicDesign">
+      <HashLink className="workLink" to="#/GraphicDesign">
       <div class='cards card3'>
         <img src={Photoshop} alt="Photoshop Logo" />
         <div class="container">

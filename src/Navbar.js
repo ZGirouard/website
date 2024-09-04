@@ -15,44 +15,44 @@ const Navbar = () => {
   return (
 <nav className="navbar">
   <div className="navbar-logo">
-    <a href="#/" className="logo">
+    <HashLink to="#/" className="logo">
       <div className="icon-container">
       <img className="shadow" src={zgShad} alt="Home" />
         <img src={ZGLogo} alt="Home" />
       </div>
-    </a>
+    </HashLink>
   </div>
   <div className="navbar-links">
     <ul className="nav-links">
       <li>
-        <a href="#/">
+        <HashLink to="#/">
         <div className="icon-container">
         <img className="shadow" src={homeShad} alt="Home" />
          <img src={homeIcon} alt="Home" />
          </div>
-        </a>
+        </HashLink>
       </li>
       <li>
       <img className="divider" src={shortLine} alt="divider" />
       </li>
       <li>
-        <a href="#/about">
+        <HashLink to="#/about">
         <div className="icon-container">
         <img className="shadow" src={aboutShad} alt="About" />
         <img src={aboutIcon} alt="About" />
         </div>
-        </a>
+        </HashLink>
       </li>
       <li>
       <img className="divider" src={shortLine} alt="divider" />
       </li>
       <li>
-      <a to="#/about#contactMe">
+      <HashLink to="#/about#contactMe">
         <div className="icon-container">
         <img className="shadow" src={contactShad} alt="Contact" />
         <img src={contactIcon} alt="Contact" />
         </div>
-        </a>
+        </HashLink>
       </li>
     </ul>
   </div>
